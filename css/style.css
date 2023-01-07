@@ -1,0 +1,245 @@
+/* Global Cutom css */
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+.title_red{
+    color: rgb(221, 83, 19);
+}
+/*header start here */
+header{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+.header_content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: end;
+}
+.header_content h1{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+.header_content p{
+    margin: 20px 0;
+    color: #fff;
+}
+.primary_btn{
+    padding: 15px 50px;
+    background-color: rgb(221, 83, 19);
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 0;
+}
+.primary_btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: rgb(221, 83, 19);
+}
+/* Css for header  end here */
+
+
+/* Features section start here */
+.featured{
+    padding: 100px 0;
+}
+.feat_container, .foot_container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.feat_img{
+    width: 100%;
+    text-align: center;
+}
+.feat_img img{
+    width: 400px;
+}
+.feat_content{
+    width: 100%;
+}
+.feat_content h1{
+    text-transform: capitalize;
+    font-size: 44px;
+}
+.feat_content p{
+    margin: 15px 0;
+}
+.feat_content ul{
+    list-style: none;
+}
+.feat_content ul li{
+    margin-bottom: 10px;
+}
+.feat_content ul li i{
+    color: rgb(221, 83, 19);
+    margin-right: 10px;
+}
+/* Features section end here */
+
+/* specification section start here */
+.specification, .why_us{
+    padding: 100px 0;
+    background: #f5f5f5;
+}
+.spaci_title{
+    text-align: center;
+    margin-bottom: 60px;
+    text-transform: capitalize;
+    font-size: 44px;
+}
+.specifi_container, .why_us_container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.icons_bg img{
+    background: white;
+    padding: 18px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px 0px #afafaf;
+    margin-bottom: 10px;
+}
+.speci_childs h3{
+    text-transform: capitalize;
+    font-size: 24px;
+    margin: 15px 0;
+}
+/* specification section end here */
+
+
+/* Why chose Us section start here */
+.why_us_container{
+    gap: 10px;
+}
+.uschild{
+    background: #0a103d;
+    width: 100%;
+    padding: 80px 30px;
+    box-shadow: 0px 0px 15px 8px #e3e3e3;
+    border-radius: 5px;
+    transition: .4s all ease-in-out;
+}
+.uschild:hover{
+    background-color: #fff;
+}
+.uschild i{
+    color: #fff;
+    font-size: 50px;
+}
+.uschild h4{
+    text-transform: capitalize;
+    margin: 20px 0;
+    font-size: 28px;
+    color: #fff;
+}
+.uschild p{
+    color: #fff;
+}
+.uschild:hover h4{
+    color: #0a103d;
+}
+.uschild:hover p{
+    color: #0a103d;
+}
+.uschild:hover i{
+    color: #0a103d;
+}
+/* Why chose Us section end here */
+
+
+/* CTA section start here */
+.cta{
+    padding: 150px 0;
+}
+.cta_container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 60px;
+    background-image:  linear-gradient(to right, rgba(9, 15, 46, 0.918), rgba(117, 19, 93, 0)), url(../images/handwatch.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.cta_content h1{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+/* CTA section end here */
+
+/* Footer section start here */
+footer{
+    background-color: #0a103d;
+    padding: 80px 0;
+}
+.foot_container {
+    align-items: inherit;
+    justify-content: space-around;
+}
+.foot_content h1{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.foot_content p{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.foot_content ul{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+}
+.foot_content ul li{
+    margin-right: 30px;
+    background: #fff;
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot_content ul li i{
+    color: #dd5313;
+}
+.foot_form h3{
+    color: #fff;
+    font-size: 26px;
+}
+input:nth-of-type(1){
+    padding: 15px 70px 15px 10px;
+    margin: 20px 0;
+}
+input:nth-of-type(2){
+    padding: 15px 40px;
+    text-transform: capitalize;
+    font-weight: 600;
+    background-color: #dd5313;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+input:nth-of-type(2):hover{
+    background-color: #fff;
+    color: #0a103d;
+    cursor: pointer;
+}
+/* Footer section end here */
